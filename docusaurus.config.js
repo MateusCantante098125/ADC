@@ -10,35 +10,41 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
-
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
+  title: 'Food Timer',
+  tagline: 'Cozinhe com facilidade',
+  favicon: 'img/time.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ADC-TP3/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'NotChrisBr0wn', // Usually your GitHub org/user name.
+  projectName: 'ADC-TP3', // Usually your repo name.
+  deploymentBranch: "gh-pages",
+  trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt', 
+    locales: ['pt', 'en'], 
+    localeConfigs: {
+      en: {
+        label: 'English', 
+      },
+      pt: {
+        label: 'Português',
+      },
+    },
   },
 
   presets: [
@@ -61,8 +67,6 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -81,21 +85,23 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Início',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'timer',
+          src: 'img/timer.svg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Sobre a App',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://github.com/Ambientes-Colaborativos/trabalho_pratico_2/blob/main/documentacao_tp2.pdf',
+            label: 'Documentação', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/NotChrisBr0wn/ADC-TP3',
             label: 'GitHub',
             position: 'right',
           },
@@ -108,25 +114,25 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Sobre nós',
                 to: '/docs/intro',
               },
+              {
+                label: 'Estrutura',
+                to: '/docs/structure',
+              },
+              {
+                label: 'Download',
+                to: '/docs/installation',
+              }
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://discord.gg/HWNecacU',
               },
             ],
           },
@@ -139,7 +145,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/NotChrisBr0wn/ADC-TP3',
               },
             ],
           },
