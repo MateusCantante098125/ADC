@@ -101,7 +101,7 @@ const config = {
           {to: 'https://github.com/Ambientes-Colaborativos/trabalho_pratico_2/blob/main/documentacao_tp2.pdf',
             label: 'Documentação', position: 'left'},
           {
-            href: 'https://github.com/NotChrisBr0wn/ADC-TP3',
+            href: 'https://github.com/MateusCantante098125/ADC',
             label: 'GitHub',
             position: 'right',
           },
@@ -145,7 +145,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/NotChrisBr0wn/ADC-TP3',
+                href: 'https://github.com/MateusCantante098125/ADC',
               },
             ],
           },
