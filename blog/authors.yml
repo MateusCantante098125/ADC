@@ -1,25 +1,26 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
+daniel:
+  name: Daniel Batista
+  title: Front End Engineer @ FoodTimer
+  url: https://github.com/NotChrisBr0wn
+  image_url: https://avatars.githubusercontent.com/u/116658518?v=4
+  page: false
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    github: NotChrisBr0wn
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+richard:
+  name: Richard Cesar
+  title: Dev-Leader @ FoodTimer
+  url: https://github.com/RichardCesar
+  image_url: https://avatars.githubusercontent.com/u/82003511?v=4
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    github: RichardCesar
+    
+
+
+mateus:
+  name: Mateus Cantante
+  title: Back-end Engineer @ FoodTimer
+  url: https://github.com/MateusCantante098125
+  image_url: https://avatars.githubusercontent.com/u/197794659?v=4
+  socials:
+    github: MateusCantante098125
